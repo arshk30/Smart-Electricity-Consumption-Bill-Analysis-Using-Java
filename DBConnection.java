@@ -11,7 +11,7 @@ public class DBConnection {
         "jdbc:mysql://localhost:3306/smart_electricity";
 
     private static final String USER = "root";
-    private static final String PASSWORD = "@arsh30306";
+    private static final String PASSWORD = "password";
 
     public static Connection getConnection()
             throws SQLException {
